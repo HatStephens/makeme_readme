@@ -9,13 +9,13 @@ describe MakemeReadme do
 
   it 'should create a blank file' do
     readme.create_new
+    readme.add_contents
     expect(File).to exist("readme.md")
   end
 
   it 'should rename a current README if one exists' do
     readme.create_new
     readme.rename_current
-    readme.create_new
     expect(File).to exist("readme_old.md")
   end
 
