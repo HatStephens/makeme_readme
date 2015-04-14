@@ -26,7 +26,7 @@ Within your project repo run:
 
 This will create a README.md file within your repo from the template.txt file. 
 
-**Note: that it will RENAME your current readme.md file to README_old.md if one exists**
+**Note: that it will RENAME your current README.md file to README_old.md if one exists**
 
 ## Contributing
 
