@@ -24,8 +24,8 @@ Enter url(s) here
 - Database:
 
 ## Setup
-- ```git clone [TODO: enter git repo]```
-- ```cd [TODO: repo name]```
+- ```git clone git@repo_name```
+- ```cd repo_name```
 - Ensure correct version of Ruby
 - ```bundle install```
 - ```touch config/database.yml``` 
@@ -36,34 +36,47 @@ Enter url(s) here
 - ```rails s -p 5000```
 
 Other useful instructions here.... Some example headings below
+
 ### Seed Data
+
 Running `bin/rake db:seed` will fill the db with default seed data required to run the app. This should only be run once.
+
 ### Workers
 
 ### Tasks
 
 ## Continuous Intergation (CI) & Continuous Deployment (CD)
+
 Notes here if appropriate
 
 ## Hosting
+
 ### Production
+
 Notes for Hosting of Production site
 
 ### Staging
+
 Notes for Hosting of Staging site
 
 ## Deployment Instructions
+
 ### Production
+
 Instructions for deploying Production site
 
 ### Staging
+
 Instructions for deploying Staging site
 
 ## Testing
 
+Relevant notes on testing here
+
 ## Useful URIs
 
 ### Admin
+
 http://www.example.com/admin
 
 ### Mockups/Wireframes
@@ -76,10 +89,10 @@ Enter url(s) here
 - [ ] Make coffee for the office
 - [x] Ensure I use makeme_readme to create my README
 
+## Other
+
 ## Favourite Code Snippet
 
 ~~~
- TODO: paste code here
+ paste code here
 ~~~
-
-## Other
