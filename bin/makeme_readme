@@ -1,2 +1,9 @@
 #!/usr/bin/env ruby
+
 require 'makeme_readme'
+
+
+run = MakemeReadme.new
+run.rename_current
+run.create_new
+run.add_contents
