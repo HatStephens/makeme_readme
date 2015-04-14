@@ -1,9 +1,9 @@
-# Name of Project
+Name of Project
 =======================
 
 ## Synopsis
 
-Enter a description of your project here. Optional image below.
+Enter a description of your project here. Optional image can be added below.
 
 ![NAME_OF_IMAGE](http://ENTER_URL)
 
@@ -17,7 +17,7 @@ Enter url(s) here
 
 ## Spec
 
-- Ruby Version: (obviously you can change Ruby to another language and add others)
+- Ruby Version: 
 - Rails Version:
 - Test Suite(s):
 - App Server:
@@ -43,7 +43,11 @@ Running `bin/rake db:seed` will fill the db with default seed data required to r
 
 ### Workers
 
+Optional section on Workers
+
 ### Tasks
+
+Optional section on Tasks
 
 ## Continuous Intergation (CI) & Continuous Deployment (CD)
 
@@ -90,6 +94,8 @@ Enter url(s) here
 - [x] Ensure I use makeme_readme to create my README
 
 ## Other
+
+A section to add bespoke instructions...
 
 ## Favourite Code Snippet
 
