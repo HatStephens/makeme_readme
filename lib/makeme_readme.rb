@@ -3,7 +3,9 @@ require_relative 'makeme_readme/version'
 class MakemeReadme
 
   def rename_current
-    File.exist?('readme.md') ? system "mv readme.md README_old.md" : return
+    if File.exist?('readme.md')
+      system "mv readme.md README_old.md"
+    end
   end
 
   def create_new

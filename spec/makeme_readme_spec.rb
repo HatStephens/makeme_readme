@@ -5,8 +5,18 @@ describe MakemeReadme do
     expect(MakemeReadme::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  let(:readme){MakemeReadme.new}
+
+  it 'should create a blank file' do
+    readme.create_new
+    expect(File).to exist("readme.md")
   end
+
+  it 'should rename a current README if one exists' do
+    readme.create_new
+    readme.rename_current
+    readme.create_new
+    expect(File).to exist("readme_old.md")
+  end
+
 end
-require 'spec_helper'

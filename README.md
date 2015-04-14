@@ -24,8 +24,9 @@ Within your project repo run:
 
     $ makeme_readme
 
-This will create a README.md file within your repo. 
-*Note: that it will RENAME your current readme.md file to README_old.md if one exists*
+This will create a README.md file within your repo from the template.txt file. 
+
+**Note: that it will RENAME your current readme.md file to README_old.md if one exists**
 
 ## Contributing
 

@@ -1,3 +1,3 @@
-module MakemeReadme
+class MakemeReadme
   VERSION = "0.1.0"
 end
